@@ -46,6 +46,15 @@ CREATE TABLE `messages` (
 );
 ```
 
+### alert-server
+
+Installing `alert-server` dependencies
+
+```cli
+cd alert-server
+pip install -r requirements.txt
+```
+
 Change MySQL credentials on `helpers.py`
 ```python
 connection = mysql.connector.connect(
@@ -54,15 +63,6 @@ connection = mysql.connector.connect(
     password = 'password',
     database = 'makethepix'
 )
-```
-
-### alert-server
-
-Installing `alert-server` dependencies
-
-```cli
-cd alert-server
-pip install -r requirements.txt
 ```
 
 Starting `alert-server`
