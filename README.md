@@ -1,5 +1,7 @@
 # Make The Pix
 
+![showcase](https://github.com/mKsDEV08/makethepix/blob/master/alert-server/static/images/makethepix_showcase.gif)
+
 ## Installation
 
 Cloning repo
